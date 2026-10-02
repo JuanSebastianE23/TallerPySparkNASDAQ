@@ -86,4 +86,5 @@ resultado = spark.sql("""
     ORDER BY Volume DESC
     LIMIT 1 """)
 resultado.show()
+#PARA SUBIR CSV echo "precio_cierre_maximo 430" > resultados/pregunta3.csv
 spark.stop()
